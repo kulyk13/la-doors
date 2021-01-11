@@ -343,11 +343,6 @@ span,
   color: #fff;
   padding: 25px 16px;
 }
-.menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .bar {
   background: transparent;
   color: #fff;
@@ -393,5 +388,14 @@ h1 {
 .offer img {
   width: 320px;
   height: 320px;
+}
+.banner {
+  background: #000;
+}
+.banner p {
+  color: #85858c;
+}
+.banner span {
+  color: #fff;
 }
 /* ============ HERO END ============ */
