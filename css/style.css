@@ -373,29 +373,49 @@ span,
 
 /* ============ HERO START ============ */
 .hero {
-  padding: 30px 18px;
+  padding-top: 30px;
 }
 .offer {
   text-align: center;
 }
-.offer span {
-  color: #cacad5;
-}
-h1 {
+.offer h1 {
   font-weight: 600;
   font-size: 30px;
+  margin-bottom: 0;
+}
+.offer span {
+  color: #cacad5;
 }
 .offer img {
   width: 320px;
   height: 320px;
+  margin-bottom: 40px;
 }
 .banner {
   background: #000;
+  text-align: left;
 }
-.banner p {
+.banner > p {
   color: #85858c;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1;
 }
 .banner span {
   color: #fff;
+  font-size: 44px;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  line-height: 1;
+  margin-top: 22px;
+}
+.trigger::before {
+  content: "";
+  width: 16px;
+  height: 20px;
+  border-top: 10px solid #000;
+  border-bottom: 10px solid #f0e819;
 }
 /* ============ HERO END ============ */
